@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleEye
+  m_Shader: {fileID: 4800000, guid: 8bf3764d35b24d74e947dc4ef8004e54, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NewTex_1:
+        m_Texture: {fileID: 2800000, guid: 66fedc6e337744c40826daef35f79483, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Break_Seed: 1.141
+    - Break_Size: 12.1
+    - Break_Value: -0.34324664
+    - Burn_Pixel_Size: 61
+    - Burn_Seed: 0.482
+    - Burn_Value: 0.22600284
+    - Compression_Value: 9.285
+    - Desintegration_Pixel_Size: 19
+    - Desintegration_Speed: 0.5
+    - Desintegration_Value: 0
+    - Disolve_Seed: 0.5
+    - Disolve_Value: 0.57083243
+    - Displacement_Value: -0.30740225
+    - DistortionUV_DistanceX_1: 0.507
+    - DistortionUV_DistanceY_1: 0.598
+    - DistortionUV_Speed_1: 0.71
+    - DistortionUV_WaveX_1: 14.9
+    - DistortionUV_WaveY_1: 19.8
+    - DoodleUV_Frame_1: 3.43
+    - DoodleUV_Size_1: 6.46
+    - Effect_Fading: 1
+    - Glass_Displacement: -0.27332112
+    - Glass_Rotation: -0.689
+    - Glass_Seed: 1.067
+    - Glass_Size: 13.6
+    - PixelSnap: 0
+    - Pixel_Size: 19
+    - Seed: 0.6
+    - _AutomaticLerp_Speed_1: 0.487
+    - _BlurHQPlus_Intensity_1: 32.6
+    - _Blur_Intensity_1: -0.2695522
+    - _Brightness_Fade_1: 0.2868607
+    - _BumpScale: 1
+    - _CircleFade_Dist_1: 0.2
+    - _CircleFade_PosX_1: 0.559
+    - _CircleFade_PosY_1: 0.5
+    - _CircleFade_Size_1: 0.54899865
+    - _CircleHole_Dist_1: 0.11
+    - _CircleHole_PosX_1: 0.5
+    - _CircleHole_PosY_1: 0.5
+    - _CircleHole_Size_1: 0
+    - _ColorHSV_Brightness_1: 1.26
+    - _ColorHSV_Hue_1: 254.62515
+    - _ColorHSV_Saturation_1: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _Destroyer_Speed_1: 0.5
+    - _Destroyer_Value_1: 0.32481977
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Effect_Fade: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GrayScale_Fade_1: 0.44531453
+    - _HdrCreate_Value_1: 0.8300257
+    - _InverseColor_Fade_1: 0.9232315
+    - _LerpUV_Fade_1: 0.107
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpriteFade: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - Tint_Color: {r: 0, g: 0.9117646, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorRGBA_Color_1: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FillColor_Color_1: {r: 0.3814879, g: 1, b: 0.1911765, a: 1}
+    - _TintRGBA_Color_1: {r: 1, g: 0.7941177, b: 0, a: 1}
