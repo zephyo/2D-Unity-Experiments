@@ -1,6 +1,6 @@
 # 2D Unity 2020 Graphic Experiments
 
-Includes 7 different experiments involving Unity's new features (URP, 2D lights, Shader Graph, Cinemachine, etc).
+Includes 7 different experiments involving Unity's latest packages.
 
 # Description
 
