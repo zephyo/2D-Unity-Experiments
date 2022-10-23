@@ -115,7 +115,13 @@ Shader "Custom/Blend Mode"
                 half4 main = i.color * SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
                 half4 mask = SAMPLE_TEXTURE2D(_MaskTex, sampler_MaskTex, i.uv);
 
-                return CombinedShapeLightShared(main, mask, i.lightingUV);
+                SurfaceData2D surfaceData;
+                InputData2D inputData;
+
+                InitializeSurfaceData(main.rgb, main.a, mask, surfaceData);
+                InitializeInputData(i.uv, i.lightingUV, inputData);
+
+                return CombinedShapeLightShared(surfaceData, inputData);
             }
             ENDHLSL
         }

@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -43,7 +44,10 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -77,7 +81,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -100,7 +103,6 @@ ScriptedImporter:
       width: 544
       height: 361
     spriteID: 588029cd135fc4bd69c86d1ff15f10a4
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -122,7 +124,6 @@ ScriptedImporter:
       width: 416
       height: 438
     spriteID: 79af826a9907c41938cd03bf0bb22d61
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -145,7 +146,6 @@ ScriptedImporter:
       width: 544
       height: 361
     spriteID: b085bc0f684224319869e61087407f6e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -167,7 +167,6 @@ ScriptedImporter:
       width: 416
       height: 438
     spriteID: eb08f520e161548f4b0d53a6d705914c
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,23 +176,34 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 152, y: -42}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
+  characterMode: 0
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 512
-  documentSize: {x: 890, y: 809}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 512
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 0
   mosaicPSDLayers:
   - name: fox
     spriteName: fox
@@ -202,6 +212,9 @@ ScriptedImporter:
     spriteID: 588029cd135fc4bd69c86d1ff15f10a4
     layerID: 10
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: dog
     spriteName: dog
     isGroup: 0
@@ -209,6 +222,9 @@ ScriptedImporter:
     spriteID: 79af826a9907c41938cd03bf0bb22d61
     layerID: 9
     mosaicPosition: {x: 556, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: fox
     spriteName: fox
@@ -217,6 +233,9 @@ ScriptedImporter:
     spriteID: b085bc0f684224319869e61087407f6e
     layerID: 10
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: dog
     spriteName: dog
     isGroup: 0
@@ -224,13 +243,14 @@ ScriptedImporter:
     spriteID: eb08f520e161548f4b0d53a6d705914c
     layerID: 9
     mosaicPosition: {x: 556, y: 4}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: FoxDog Texture
   prefabAssetName: FoxDog Prefab
   spriteLibAssetName: FoxDog Sprite Lib
+  skeletonAssetName: FoxDog Skeleton
   secondarySpriteTextures: []

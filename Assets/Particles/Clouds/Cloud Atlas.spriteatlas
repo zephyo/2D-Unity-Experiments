@@ -28,6 +28,7 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 7835f94d6501845278eb36d624080820, type: 3}
@@ -52,5 +53,6 @@ SpriteAtlas:
   - Clouds_0003_Layer 4
   - Clouds_0002_Layer 3
   - Clouds_0000_Layer 1
+  m_RenderDataMap: {}
   m_Tag: Cloud Atlas
   m_IsVariant: 0
