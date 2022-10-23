@@ -4894,7 +4894,7 @@ GameObject:
   - component: {fileID: 1802488258667020171}
   - component: {fileID: 1802488258667020168}
   m_Layer: 8
-  m_Name: BloodRain
+  m_Name: Rain Fg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
